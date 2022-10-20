@@ -9,15 +9,26 @@ const calculateWealthBtn = document.getElementById("calculate-wealth");
 // initialize array
 let data = [];
 
-// get random user
+// get random user from API
 
-// double everyones money
+function doubleMoney() {
+  // alla users property money ska dubblas
+  // TIPS: använd spread operator för att se till att all tidigare data inte
+  // körs över
+}
 
-// sort by richest person
+function sortByRichest() {
+  // sortera listan med den rikaste personen först
+}
 
-// show ony millionaires
+function showMillionaires() {
+  // visa endast users som är miljonärer
+}
 
-// calculate total wealth
+function calculateWealth() {
+  // räkna ihop allas pengar, alltså totala förnögenheten
+  // den här är svårast och använder en lite mer komplicerad array metod
+}
 
 // add new user to data array
 
@@ -30,3 +41,4 @@ function formatMoney(number) {
 }
 
 // event listeners
+// här lägger ni eventlisteners till alla knappar i menyn
